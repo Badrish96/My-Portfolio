@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Badrish - Developer portfolio</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/c24730e3a3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Badrish's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Services</a></li>
+          <li><a href="/">Projects</a></li>
+          <li><a href="/">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        Hi, my name is <span class="purple">Badrish</span>
+        <div>
+          I'm a passionate Web developer and I work on
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <a href="https://github.com/Badrish96" target=”_blank”><button class="btn">Visit Github</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="rightSection">
+        <img src="../images/PngItem_1127587.png" alt="devloperimg" />
+      </div>
+    </section>
+    <hr />
+    <section class="secondSection">
+      <span class="text-gray">What I have done so far</span>
+      <h1>Work Experience</h1>
+      <div class="box">
+        <div class="vertical">
+          <img src="../images/Trainer.png" alt="trainerImg" class="image-top" />
+        </div>
+        <div class="vertical-title">
+          Worked with <span class="purple">Concentrix</span> and<span class="purple">
+            Accenture</span>
+          as a <span class="purple">Process Trainer</span> (2016-2023)
+        </div>
+        <div class="vertical"></div>
+        <div class="vertical-desc">
+          Trained new employees and made them process ready. Worked for
+          telecommunication businesses like <span class="purple"> AT&T</span> &
+          <span class="purple">Verizon</span>
+        </div>
+    </section>
+    <section class="ThirdSection">
+      <h2>Projects</h2>
+      <div class="box">
+        <div class="vertical">
+          <img src="../images/7339811.jpg" alt="trainerImg" class="crm-img" />
+        </div>
+        <p class="vertical-title2">CRM application With Notification Service</p>
+        <div class="vertical"></div>
+        <div class="vertical-desc2">
+          <span class="purple">CRM application,</span> where customers can raise complaints and can track the complete
+          lifecycle of the complaint raised. Along with a <span class="purple">Notification System</span> to notify
+          customers about their tickets.
+        </div>
+    </section>
+    <section class="ThirdSection">
+      <div class="box">
+        <div class="vertical">
+          <img src="../images/34017331.jpg" alt="trainerImg" class="crm-img" />
+        </div>
+        <p class="vertical-title2">Find My Restaurant</p>
+        <div class="vertical"></div>
+        <div class="vertical-desc2">
+          <span class="purple">Restaurant Application,</span> where owners can create new restaurants and customers can
+          find these restaurants with Restaurant type, id etc.
+        </div>
+    </section>
+  </main>
+  <footer>
+    <div class="social">
+      <i class="fa-brands fa-facebook fa-flip"></i>
+      <i class="fa-brands fa-linkedin fa-flip"></i>
+      <i class="fa-brands fa-github fa-flip"></i>
+      <i class="fa-brands fa-twitter fa-flip"></i>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed("#element", {
+      strings: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Java",
+        "NodeJs",
+        "And",
+        "MongoDB",
+      ],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
